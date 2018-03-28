@@ -49,7 +49,8 @@ http.ServerResponse.prototype.respond = function(content,status){
           "message" : "not found"
         };
 
-            }
+        }
+      content = result;
      }
 
      this.send(JSON.stringify(content)+'\n',status);
