@@ -1,4 +1,4 @@
-var reponce = require("respond.js");
+var reponce = require("./respond.js");
 
 
 module.exports = function(app,elasticsearch){
